@@ -44,3 +44,116 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+
+
+//
+
+Here’s a clean and professional README.md for your weather search React app:
+
+⸻
+
+README.md
+
+# 🌤️ City Weather Search App
+
+A simple React application that allows users to search for the current weather in any city using the OpenWeatherMap API.
+
+---
+
+## 🚀 Features
+
+- 🔍 Search weather by city name
+- 📦 Uses OpenWeatherMap API
+- 💡 Displays temperature, humidity, wind speed, and description
+- 🎨 Clean and responsive UI with consistent theme
+- 🔄 Loading and error handling included
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (with TypeScript)
+- **CSS** for styling (modular and consistent)
+- **Custom Hooks** (`useWeather`) for API logic
+- **OpenWeatherMap API**
+
+---
+
+## 📸 Screenshots
+
+> _Coming Soon (Add screenshots of your UI here)_
+
+---
+
+## 📁 Folder Structure
+
+src/
+├── components/
+│   ├── SearchBar.tsx
+│   ├── WeatherCard.tsx
+│   ├── SearchBar.css
+│   └── WeatherCard.css
+├── hooks/
+│   └── useWeather.ts
+├── pages/
+│   ├── Home.tsx
+│   └── Home.css
+└── App.tsx
+
+---
+
+## 🔧 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/weather-search-app.git
+cd weather-search-app
+
+2. Install dependencies
+
+npm install
+
+3. Add your API key
+
+Create a .env file in the root directory and add:
+
+REACT_APP_WEATHER_API_KEY=your_openweathermap_api_key
+
+📝 You can get a free API key from https://openweathermap.org/api
+
+4. Run the development server
+
+npm start
+
+
+⸻
+
+🧪 Example API Response
+
+{
+  "name": "London",
+  "weather": [{ "description": "light rain" }],
+  "main": { "temp": 15, "humidity": 82 },
+  "wind": { "speed": 3.6 }
+}
+
+
+⸻
+
+📄 License
+
+This project is open source and available under the MIT License.
+
+⸻
+
+🙌 Acknowledgments
+	•	OpenWeatherMap API
+	•	React community & documentation
+
+---
+
+Let me know if you want to deploy it (e.g., to Vercel or Netlify) or generate a `.env.example` file for easier collaboration.
